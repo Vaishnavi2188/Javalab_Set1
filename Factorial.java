@@ -10,8 +10,8 @@ class Factorial
         for(int i=1;i<=n;i++)
         {
             fact=fact*i;
+            System.out.println("Factorial of "+i+ " is " + fact);
         }
-        System.out.println("Factorial = " + fact);
-        }
+     }
 }
 
